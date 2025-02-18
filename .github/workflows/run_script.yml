@@ -24,4 +24,4 @@ jobs:
         env:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
-        run: python script.py
+        run: python Pubmed_Q1q2_Filter.py
